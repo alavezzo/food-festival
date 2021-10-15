@@ -1,5 +1,5 @@
 require('bootstrap');
-const createEl = require('domMethods');
+const createEl = require('./domMethods');
 
 $(document).ready( function () {
 
