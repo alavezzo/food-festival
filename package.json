@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "webpack": "webpack --watch",
-    "build": "webpack"
+    "build": "webpack",
+    "start:dev": "webpack-dev-server"
   },
   "repository": {
     "type": "git",
@@ -18,11 +19,16 @@
   },
   "homepage": "https://github.com/alavezzo/food-festival#readme",
   "devDependencies": {
+    "file-loader": "^6.2.0",
     "webpack": "^5.58.2",
-    "webpack-cli": "^4.9.0"
+    "webpack-bundle-analyzer": "^4.5.0",
+    "webpack-cli": "^4.9.0",
+    "webpack-dev-server": "^4.3.1",
+    "webpack-pwa-manifest": "^4.3.0"
   },
   "dependencies": {
     "bootstrap": "^4.3.1",
+    "image-webpack-loader": "^8.0.1",
     "jquery": "^3.6.0",
     "popper.js": "^1.16.1"
   }
